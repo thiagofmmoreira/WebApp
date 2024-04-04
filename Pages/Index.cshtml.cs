@@ -15,8 +15,8 @@ namespace WebApp.Pages
 
         public void OnGet()
         {
-            var rm = new ResourceManager(typeof(Resource));
-            Teste = rm.GetString("teste");
+            //var rm = new ResourceManager(typeof(Resource));
+            //Teste = rm.GetString("teste");
         }
     }
 }
